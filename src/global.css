@@ -1,0 +1,37 @@
+body {
+	--app-color-primary: #15803d;
+	--app-color-primary-dark: #041109;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: var(--app-color-primary-dark);
+}
+
+h1 {
+	color: white;
+	font-size: 4.618rem;
+	font-family: 'Jetbrains Mono', monospace;
+	line-height: 1.618;
+
+	width: max-content;
+}
+
+body::-webkit-scrollbar {
+	background-color: transparent;
+	width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgba(244, 245, 248, 0.8);
+	border: 3px solid transparent;
+	border-radius: 8px;
+	background-clip: content-box;
+	transition: all 200ms;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(244, 245, 248, 1);
+}
